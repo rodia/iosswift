@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75A480041B080E50005F4DE0 /* TvGuieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A480031B080E50005F4DE0 /* TvGuieController.swift */; };
+		75A480061B093B38005F4DE0 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A480051B093B38005F4DE0 /* DetailController.swift */; };
+		75A480081B153F57005F4DE0 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A480071B153F57005F4DE0 /* SwiftyJSON.swift */; };
+		75A4800A1B15400E005F4DE0 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A480091B15400E005F4DE0 /* RestApiManager.swift */; };
 		75DC050B1AFE7D9A002B8339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC050A1AFE7D9A002B8339 /* AppDelegate.swift */; };
 		75DC050E1AFE7D9A002B8339 /* myGuie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75DC050C1AFE7D9A002B8339 /* myGuie.xcdatamodeld */; };
-		75DC05101AFE7D9A002B8339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC050F1AFE7D9A002B8339 /* ViewController.swift */; };
 		75DC05131AFE7D9A002B8339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DC05111AFE7D9A002B8339 /* Main.storyboard */; };
 		75DC05151AFE7D9A002B8339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DC05141AFE7D9A002B8339 /* Images.xcassets */; };
 		75DC05181AFE7D9A002B8339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75DC05161AFE7D9A002B8339 /* LaunchScreen.xib */; };
@@ -27,11 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75A480031B080E50005F4DE0 /* TvGuieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvGuieController.swift; sourceTree = "<group>"; };
+		75A480051B093B38005F4DE0 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		75A480071B153F57005F4DE0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		75A480091B15400E005F4DE0 /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
 		75DC05051AFE7D9A002B8339 /* myGuie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myGuie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DC05091AFE7D9A002B8339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75DC050A1AFE7D9A002B8339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75DC050D1AFE7D9A002B8339 /* myGuie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myGuie.xcdatamodel; sourceTree = "<group>"; };
-		75DC050F1AFE7D9A002B8339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75DC05121AFE7D9A002B8339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75DC05141AFE7D9A002B8339 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75DC05171AFE7D9A002B8339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,7 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				75DC050A1AFE7D9A002B8339 /* AppDelegate.swift */,
-				75DC050F1AFE7D9A002B8339 /* ViewController.swift */,
+				75A480091B15400E005F4DE0 /* RestApiManager.swift */,
+				75A480071B153F57005F4DE0 /* SwiftyJSON.swift */,
+				75A480031B080E50005F4DE0 /* TvGuieController.swift */,
+				75A480051B093B38005F4DE0 /* DetailController.swift */,
 				75DC05111AFE7D9A002B8339 /* Main.storyboard */,
 				75DC05141AFE7D9A002B8339 /* Images.xcassets */,
 				75DC05161AFE7D9A002B8339 /* LaunchScreen.xib */,
@@ -215,8 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DC05101AFE7D9A002B8339 /* ViewController.swift in Sources */,
+				75A480061B093B38005F4DE0 /* DetailController.swift in Sources */,
+				75A480041B080E50005F4DE0 /* TvGuieController.swift in Sources */,
+				75A4800A1B15400E005F4DE0 /* RestApiManager.swift in Sources */,
 				75DC050B1AFE7D9A002B8339 /* AppDelegate.swift in Sources */,
+				75A480081B153F57005F4DE0 /* SwiftyJSON.swift in Sources */,
 				75DC050E1AFE7D9A002B8339 /* myGuie.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +423,7 @@
 				75DC05291AFE7D9B002B8339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75DC052A1AFE7D9B002B8339 /* Build configuration list for PBXNativeTarget "myGuieTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				75DC052C1AFE7D9B002B8339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
